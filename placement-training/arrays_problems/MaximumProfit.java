@@ -25,7 +25,7 @@ public class MaximumProfit {
             }
 
             int max = arr[minIndex];
-            for (int i = minIndex; i < n; i++) {
+            for (int i = minIndex+1:; i < n; i++) {
                 if (arr[i] > max) {
                     max = arr[i];
                 }
